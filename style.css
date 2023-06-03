@@ -1,0 +1,81 @@
+
+ body{
+    
+    background:linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)
+    ) ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+ }
+ .faq{
+   margin-bottom: 35px;
+   padding-top: 30px;
+ }
+ .outercontainer{
+   font-size: 14px;
+   overflow-y: scroll;
+   width: 50%;
+
+ }
+ .ques:hover{
+   color: hsl(14, 88%, 65%);
+ }
+ .ques{
+   cursor: pointer;
+ }
+ 
+ .outercontainer > div{
+   display: none;
+   margin: 0px;
+   padding: 0px;
+   
+   
+   
+ }
+
+ .container{
+   display: flex;
+   background: white;
+   height: 400px;
+   width: 650px;
+   border-radius: 30px;
+   margin-top: 10%;
+ }
+ .outercontainer::-webkit-scrollbar { width: 0 !important }
+ .outercontainer { overflow: -moz-scrollbars-none; }
+ .outercontainer { -ms-overflow-style: none; }
+ .left{
+   height: 100%;
+   width: 50%; 
+   position: relative;
+ }
+ .image-container{
+   background-image: url(./images/illustration-woman-online-desktop.svg),url(./images/bg-pattern-desktop.svg);
+   background-position: left -90% top 40%  ;
+   background-repeat: no-repeat, no-repeat;
+   background-size: 88%;
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+  
+   
+ }
+
+ img#box{
+   position: absolute;
+   top: 40%;
+   left: -26%;
+   width: 40%;
+   
+ }
+
+ .attribution {
+   margin: 20px;
+   font-size: 11px; text-align: center; 
+  }
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+}
